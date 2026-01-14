@@ -1,0 +1,43 @@
+<!-- This is the content for templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}Bosh Sahifa{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">KUTUBXONAga Xush Kelibsiz!</h1>
+    <p class="text-center lead">Kitob janrlarini tanlang va o'zingizga mos kitoblarni toping.</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Badiiy Kitoblar</h5>
+                    <a href="{% url 'badiiy_kitoblar' %}" class="btn btn-primary">Ko'rish</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tarixiy Kitoblar</h5>
+                    <a href="{% url 'tarixiy_kitoblar' %}" class="btn btn-primary">Ko'rish</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Fantastik Kitoblar</h5>
+                    <a href="{% url 'fantastik_kitoblar' %}" class="btn btn-primary">Ko'rish</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ensiklopediyalar</h5>
+                    <a href="{% url 'ensiklopediyalar' %}" class="btn btn-primary">Ko'rish</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
