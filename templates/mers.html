@@ -1,0 +1,55 @@
+<!-- This is the content for templates/ensiklopediyalar.html -->
+{% extends 'base.html' %}
+
+{% block title %}Ensiklopediyalar{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Ensiklopediyalar</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://cdn.asaxiy.uz/asaxiy-content/product/items/mobile/c157297d1a1ff043255bfb18530caaa22022052322043772372oV8TBx4dhW.jpg.webp" class="card-img-top" alt="Kitob 1">
+                <div class="card-body">
+                    <h5 class="card-title">Britannica</h5>
+                    <a href="{% url 'ensiklopediyalar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGWANde8TPzEJZjPLhA3FZjb3PL8Uc5SWz_A&s" class="card-img-top" alt="Kitob 2">
+                <div class="card-body">
+                    <h5 class="card-title">O'zbekiston Milliy Ensiklopediyasi</h5>
+                    <a href="{% url 'ensiklopediyalar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/003_bolalar/2024/bilgim-keladi-550x550h.jpg" class="card-img-top" alt="Kitob 3">
+                <div class="card-body">
+                    <h5 class="card-title">Larousse</h5>
+                    <a href="{% url 'ensiklopediyalar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/003_bolalar/10.10/yer-sayyorasi-web-550x550h.jpg" class="card-img-top" alt="Kitob 4">
+                <div class="card-body">
+                    <h5 class="card-title">World Book</h5>
+                    <a href="{% url 'ensiklopediyalar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91iNILVHQYL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Kitob 5">
+                <div class="card-body">
+                    <h5 class="card-title">Encyclopedia of Science</h5>
+                    <a href="{% url 'ensiklopediyalar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

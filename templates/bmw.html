@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}BMW{% endblock %}
+
+{% block content %}
+<h2>BMW avtomobillari</h2>
+
+<div class="grid">
+    <a class="card" href="{% url 'bmw_haqida' %}">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW_X5_G05.jpg">
+        <h3>BMW X5</h3>
+    </a>
+
+    <a class="card" href="{% url 'bmw_haqida' %}">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/BMW_M5.jpg">
+        <h3>BMW M5</h3>
+    </a>
+
+    <a class="card" href="{% url 'bmw_haqida' %}">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/BMW_i8.jpg">
+        <h3>BMW i8</h3>
+    </a>
+</div>
+{% endblock %}

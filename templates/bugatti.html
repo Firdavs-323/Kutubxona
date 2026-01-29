@@ -1,0 +1,55 @@
+<!-- This is the content for templates/fantastik_kitoblar.html -->
+{% extends 'base.html' %}
+
+{% block title %}Fantastik Kitoblar{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Fantastik Kitoblar</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://assets.asaxiy.uz/product/items/desktop/586f9b4035e5997f77635b13cc04984c2022050413390782248fkpwdXX3zG.jpg.webp" class="card-img-top" alt="Kitob 1">
+                <div class="card-body">
+                    <h5 class="card-title">Harry Potter</h5>
+                    <a href="{% url 'fantastik_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28828_p_v8_ao.jpg" class="card-img-top" alt="Kitob 2">
+                <div class="card-body">
+                    <h5 class="card-title">Lord of the Rings</h5>
+                    <a href="{% url 'fantastik_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://lh5.googleusercontent.com/proxy/UKjMPwnXl-5yU8BBIj6zgVRj2g5qposydA2pNvhsHqjFH8CkN7Cf_l2dE0JvvvynHtGwlJaN9gNcjKqcYKnImP_GWdKmdX1rtHLJzKJ5a4wG7HQoDiAF_dMoYleR8dZWfcCEwaTI" class="card-img-top" alt="Kitob 3">
+                <div class="card-body">
+                    <h5 class="card-title">Dune</h5>
+                    <a href="{% url 'fantastik_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71jD4jMityL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Kitob 4">
+                <div class="card-body">
+                    <h5 class="card-title">The Hobbit</h5>
+                    <a href="{% url 'fantastik_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Kitob 5">
+                <div class="card-body">
+                    <h5 class="card-title">Game of Thrones</h5>
+                    <a href="{% url 'fantastik_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

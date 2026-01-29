@@ -1,0 +1,107 @@
+<!-- This is the content for templates/ensiklopediyalar_haqida.html -->
+{% extends 'base.html' %}
+
+{% block title %}Ensiklopediyalar Haqida{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Ensiklopediyalar Haqida Batafsil</h1>
+    <div class="accordion" id="accordionEnsiklopediya">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    Britannica
+                </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1">
+                <div class="accordion-body">
+                    <img src="https://cdn.asaxiy.uz/asaxiy-content/product/items/mobile/c157297d1a1ff043255bfb18530caaa22022052322043772372oV8TBx4dhW.jpg.webp" class="img-fluid mb-3" alt="Kitob 1">
+                    <p><strong>Janr:</strong> Ensiklopediya</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Umumiy ensiklopediya.</p>
+                    <p><strong>To'liq Tavsif:</strong> Dunyo haqida hamma narsa.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1768</p>
+                    <p><strong>Davlati:</strong> Buyuk Britaniya</p>
+                    <p><strong>Betlar Soni:</strong> 32000</p>
+                </div>
+            </div>
+        </div>
+        <!-- Similar for other books -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    O'zbekiston Milliy Ensiklopediyasi
+                </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                <div class="accordion-body">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGWANde8TPzEJZjPLhA3FZjb3PL8Uc5SWz_A&s" class="img-fluid mb-3" alt="Kitob 2">
+                    <p><strong>Janr:</strong> Ensiklopediya</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> O'zbekiston haqida.</p>
+                    <p><strong>To'liq Tavsif:</strong> Mamlakatning barcha jihatlari.</p>
+                    <p><strong>Nashr Sanasi:</strong> 2000</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 12000</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    Larousse
+                </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/003_bolalar/2024/bilgim-keladi-550x550h.jpg" class="img-fluid mb-3" alt="Kitob 3">
+                    <p><strong>Janr:</strong> Ensiklopediya</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Fransuz ensiklopediyasi.</p>
+                    <p><strong>To'liq Tavsif:</strong> Ilm va madaniyat.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1856</p>
+                    <p><strong>Davlati:</strong> Fransiya</p>
+                    <p><strong>Betlar Soni:</strong> 10000</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    World Book
+                </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/003_bolalar/10.10/yer-sayyorasi-web-550x550h.jpg" class="img-fluid mb-3" alt="Kitob 4">
+                    <p><strong>Janr:</strong> Ensiklopediya</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Bolalar uchun ensiklopediya.</p>
+                    <p><strong>To'liq Tavsif:</strong> Oddiy tushuntirishlar.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1917</p>
+                    <p><strong>Davlati:</strong> AQSh</p>
+                    <p><strong>Betlar Soni:</strong> 22000</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Encyclopedia of Science
+                </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                <div class="accordion-body">
+                    <img src="https://m.media-amazon.com/images/I/91iNILVHQYL._AC_UF1000,1000_QL80_.jpg" class="img-fluid mb-3" alt="Kitob 5">
+                    <p><strong>Janr:</strong> Ensiklopediya</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Ilmiy ensiklopediya.</p>
+                    <p><strong>To'liq Tavsif:</strong> Fan va texnologiya.</p>
+                    <p><strong>Nashr Sanasi:</strong> 2005</p>
+                    <p><strong>Davlati:</strong> AQSh</p>
+                    <p><strong>Betlar Soni:</strong> 8000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-secondary btn-back">Orqaga</a>
+{% endblock %}

@@ -1,0 +1,55 @@
+<!-- This is the content for templates/tarixiy_kitoblar.html -->
+{% extends 'base.html' %}
+
+{% block title %}Tarixiy Kitoblar{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Tarixiy Kitoblar</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://backend.book.uz/user-api/img/img-fad1436b62733fc189170667bb96b486.jpg" class="card-img-top" alt="Kitob 1">
+                <div class="card-body">
+                    <h5 class="card-title">Boburnoma</h5>
+                    <a href="{% url 'tarixiy_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://backend.book.uz/user-api/img/img-file-41298237cdb890cddd4573ba20faabec.jpg" class="card-img-top" alt="Kitob 2">
+                <div class="card-body">
+                    <h5 class="card-title">Temur Tuzuklari</h5>
+                    <a href="{% url 'tarixiy_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://akbt.urspi.uz/storage/books/face/images/2_6528d5a4ceb86_1697174948.jpg" class="card-img-top" alt="Kitob 3">
+                <div class="card-body">
+                    <h5 class="card-title">O'zbekiston Tarixi</h5>
+                    <a href="{% url 'tarixiy_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://arm.samdchti.uz/bootstrap/uploads/images/images/yangi_kitoblar/Jahon%20tarixi2.jpg" class="card-img-top" alt="Kitob 4">
+                <div class="card-body">
+                    <h5 class="card-title">Jahon Tarixi</h5>
+                    <a href="{% url 'tarixiy_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+            <div class="card">
+                <img src="https://lib.adpi.uz/frontend/web/bimages/rajabovrjahontarixi.jpeg" class="card-img-top" alt="Kitob 5">
+                <div class="card-body">
+                    <h5 class="card-title">Qadimgi Sharq Tarixi</h5>
+                    <a href="{% url 'tarixiy_kitoblar_haqida' %}" class="btn btn-primary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

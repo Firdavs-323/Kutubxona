@@ -1,0 +1,107 @@
+<!-- This is the content for templates/badiiy_kitoblar_haqida.html -->
+{% extends 'base.html' %}
+
+{% block title %}Badiiy Kitoblar Haqida{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Badiiy Kitoblar Haqida Batafsil</h1>
+    <div class="accordion" id="accordionBadiiy">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    O'tgan Kunlar
+                </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/002_badiy/2024/ok2-500x750.jpg" class="img-fluid mb-3" alt="Kitob 1">
+                    <p><strong>Janr:</strong> Badiiy</p>
+                    <p><strong>Muallif:</strong> Abdulla Qodiriy</p>
+                    <p><strong>Qisqacha Tavsif:</strong> O'zbek adabiyotining klassik asari.</p>
+                    <p><strong>To'liq Tavsif:</strong> Bu kitobda mustabidlik davrida yashagan odamlarning hayoti tasvirlangan.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1925</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 300</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    Shum Bola
+                </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/002_badiy/2025/Shum-bola-500x750.jpg" class="img-fluid mb-3" alt="Kitob 2">
+                    <p><strong>Janr:</strong> Badiiy</p>
+                    <p><strong>Muallif:</strong> G'afur G'ulom</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Bolalik haqidagi hikoya.</p>
+                    <p><strong>To'liq Tavsif:</strong> Bolaning sarguzashtlari tasvirlangan.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1936</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 250</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add similar for other 3 books -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    Alpomish
+                </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                <div class="accordion-body">
+                    <img src="https://backend.book.uz/user-api/img/img-file-2e064c020416afa041faa19802851970.jpg" class="img-fluid mb-3" alt="Kitob 3">
+                    <p><strong>Janr:</strong> Badiiy</p>
+                    <p><strong>Muallif:</strong> Xalq Doston</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Epik doston.</p>
+                    <p><strong>To'liq Tavsif:</strong> Qahramonlik haqida.</p>
+                    <p><strong>Nashr Sanasi:</strong> Qadimiy</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 400</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    Mehrobdan Chayon
+                </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/002_badiy/2024/mehrobdan-chayon-web-500x750.jpg" class="img-fluid mb-3" alt="Kitob 4">
+                    <p><strong>Janr:</strong> Badiiy</p>
+                    <p><strong>Muallif:</strong> Abdulla Qodiriy</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Drama.</p>
+                    <p><strong>To'liq Tavsif:</strong> Hayotiy voqealar.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1929</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 280</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Yulduzli Tunlar
+                </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                <div class="accordion-body">
+                    <img src="https://hilolnashr.uz/image/cache/catalog/bolalar/yulduzli_tunlar-500x750.jpg" class="img-fluid mb-3" alt="Kitob 5">
+                    <p><strong>Janr:</strong> Badiiy</p>
+                    <p><strong>Muallif:</strong> Pirimqul Qodirov</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Tarixiy roman.</p>
+                    <p><strong>To'liq Tavsif:</strong> Bobur hayoti haqida.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1978</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-secondary btn-back">Orqaga</a>
+{% endblock %}

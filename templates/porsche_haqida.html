@@ -1,0 +1,107 @@
+<!-- This is the content for templates/tarixiy_kitoblar_haqida.html -->
+{% extends 'base.html' %}
+
+{% block title %}Tarixiy Kitoblar Haqida{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Tarixiy Kitoblar Haqida Batafsil</h1>
+    <div class="accordion" id="accordionTarixiy">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    Boburnoma
+                </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1">
+                <div class="accordion-body">
+                    <img src="https://backend.book.uz/user-api/img/img-fad1436b62733fc189170667bb96b486.jpg" class="img-fluid mb-3" alt="Kitob 1">
+                    <p><strong>Janr:</strong> Tarixiy</p>
+                    <p><strong>Muallif:</strong> Zahiriddin Muhammad Bobur</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Avtobiografiya.</p>
+                    <p><strong>To'liq Tavsif:</strong> Bobur hayoti va sayohatlari.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1530</p>
+                    <p><strong>Davlati:</strong> Hindiston</p>
+                    <p><strong>Betlar Soni:</strong> 400</p>
+                </div>
+            </div>
+        </div>
+        <!-- Similar structure for other 4 books -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    Temur Tuzuklari
+                </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                <div class="accordion-body">
+                    <img src="https://backend.book.uz/user-api/img/img-file-41298237cdb890cddd4573ba20faabec.jpg" class="img-fluid mb-3" alt="Kitob 2">
+                    <p><strong>Janr:</strong> Tarixiy</p>
+                    <p><strong>Muallif:</strong> Amir Temur</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Hukmdorlik qoidalari.</p>
+                    <p><strong>To'liq Tavsif:</strong> Temur hayoti va maslahatlari.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1405</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 200</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    O'zbekiston Tarixi
+                </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                <div class="accordion-body">
+                    <img src="https://akbt.urspi.uz/storage/books/face/images/2_6528d5a4ceb86_1697174948.jpg" class="img-fluid mb-3" alt="Kitob 3">
+                    <p><strong>Janr:</strong> Tarixiy</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Mamlakat tarixi.</p>
+                    <p><strong>To'liq Tavsif:</strong> Qadimdan hozirgacha.</p>
+                    <p><strong>Nashr Sanasi:</strong> 2000</p>
+                    <p><strong>Davlati:</strong> O'zbekiston</p>
+                    <p><strong>Betlar Soni:</strong> 600</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    Jahon Tarixi
+                </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                <div class="accordion-body">
+                    <img src="https://arm.samdchti.uz/bootstrap/uploads/images/images/yangi_kitoblar/Jahon%20tarixi2.jpg" class="img-fluid mb-3" alt="Kitob 4">
+                    <p><strong>Janr:</strong> Tarixiy</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Dunyo tarixi.</p>
+                    <p><strong>To'liq Tavsif:</strong> Barcha qit'alar haqida.</p>
+                    <p><strong>Nashr Sanasi:</strong> 2010</p>
+                    <p><strong>Davlati:</strong> AQSh</p>
+                    <p><strong>Betlar Soni:</strong> 1000</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Qadimgi Sharq Tarixi
+                </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                <div class="accordion-body">
+                    <img src="https://lib.adpi.uz/frontend/web/bimages/rajabovrjahontarixi.jpeg" class="img-fluid mb-3" alt="Kitob 5">
+                    <p><strong>Janr:</strong> Tarixiy</p>
+                    <p><strong>Muallif:</strong> Turli mualliflar</p>
+                    <p><strong>Qisqacha Tavsif:</strong> Sharq tsivilizatsiyalari.</p>
+                    <p><strong>To'liq Tavsif:</strong> Misr, Mesopotamiya va boshqalar.</p>
+                    <p><strong>Nashr Sanasi:</strong> 1995</p>
+                    <p><strong>Davlati:</strong> Rossiya</p>
+                    <p><strong>Betlar Soni:</strong> 450</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-secondary btn-back">Orqaga</a>
+{% endblock %}
